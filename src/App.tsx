@@ -14,6 +14,9 @@ import TransparentTenders from "./pages/features/TransparentTenders";
 import SocialWelfare from "./pages/features/SocialWelfare";
 import GreenProjects from "./pages/features/GreenProjects";
 import ArtsCreative from "./pages/features/ArtsCreative";
+import PoolFundingMain from "./pages/poolfunding/PoolFundingMain";
+import CampaignDetails from "./pages/poolfunding/CampaignDetails";
+import CreatorDashboard from "./pages/poolfunding/CreatorDashboard";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +32,9 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/poolfunding" element={<PoolFundingMain />} />
+            <Route path="/poolfunding/campaign/:id" element={<CampaignDetails />} />
+            <Route path="/poolfunding/create" element={<CreatorDashboard />} />
             <Route path="/features/project-crowdfunding" element={<ProjectCrowdfunding />} />
             <Route path="/features/collaborative-investments" element={<CollaborativeInvestments />} />
             <Route path="/features/real-estate-investment" element={<RealEstateInvestment />} />

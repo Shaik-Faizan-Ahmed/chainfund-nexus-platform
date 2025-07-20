@@ -9,7 +9,7 @@ const features = [
     title: "Project Crowdfunding",
     description: "Support innovative projects with milestone-based fund release.",
     icon: TrendingUp,
-    href: "/features/project-crowdfunding"
+    href: "/poolfunding"
   },
   {
     title: "Collaborative Investments",
