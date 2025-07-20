@@ -24,7 +24,8 @@ export default function Register() {
       return
     }
     console.log("Registration attempt:", formData)
-    // Dummy functionality
+    // Redirect to wallet connect page
+    window.location.href = "/wallet-connect"
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

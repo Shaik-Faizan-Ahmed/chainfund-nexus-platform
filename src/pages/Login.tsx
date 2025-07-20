@@ -16,7 +16,8 @@ export default function Login() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     console.log("Login attempt:", formData)
-    // Dummy functionality
+    // Redirect to wallet connect page
+    window.location.href = "/wallet-connect"
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
