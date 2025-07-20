@@ -2,7 +2,6 @@ import { Header } from "@/components/Header"
 import { FeatureCard } from "@/components/FeatureCard"
 import { Button } from "@/components/ui/button"
 import { CheckCircle, TrendingUp, Users, Shield, Heart, Leaf, Palette } from "lucide-react"
-import heroImage from "@/assets/hero-blockchain.jpg"
 
 const features = [
   {
@@ -74,7 +73,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src={heroImage} 
+                src="https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800" 
                 alt="Blockchain Finance Dashboard" 
                 className="rounded-lg shadow-2xl"
               />
